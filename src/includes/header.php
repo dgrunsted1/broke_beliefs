@@ -1,4 +1,4 @@
 
-<div class="jumbotron">
-	<h1>Hello there!</h1>
+<div class="header">
+	<h2>merge_conflict</h2>
 </div>
