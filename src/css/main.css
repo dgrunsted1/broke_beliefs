@@ -1,6 +1,7 @@
 #main-content {
 		margin-top:20px;
-        background-color: blueviolet;
+        background-color: whitesmoke;
+        
 	}
 	.footer {
 		font-size: 14px;
@@ -15,3 +16,27 @@
     #nav_container {
         background-color: whitesmoke;
 	}
+
+    #board{
+        display: grid;
+        grid-template-columns: repeat(5, 100px [col-start]);
+    }
+
+    .green {
+        background-color: rgb(2, 194, 136);
+    }
+
+    .yellow {
+        background-color: rgb(223, 223, 35);
+    }
+    .grey {
+        background-color: rgb(179, 179, 179);
+    }
+    
+    .inputs {
+        height:100px;
+        font-size: 75px;
+        text-align: center;
+        border: 2px solid black;
+        margin: 2px;
+    }
