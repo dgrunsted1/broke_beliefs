@@ -120,7 +120,7 @@ echo "<script>  let word = '$word'
     }
 
     function end_of_game(){
-        alert("the word was"+word+"stupid");
+        alert("the word was "+word+" stupid");
     }
 </script>
 </html>
