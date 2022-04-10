@@ -44,6 +44,7 @@ function end_of_game(){
 }
 
 function winner(row){
+    row = row.split('_')[1];
     guesses = {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5', 'f': '6'};
-    alert(`You Win!  ${guesses[row]}`);
+    alert(`You Win!\nIt only took you ${guesses[row]} guesses!`);
 }

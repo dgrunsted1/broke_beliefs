@@ -11,10 +11,17 @@
     
     include("includes/header.php");
     include("includes/nav.php");
-    include("includes/wordle.php");
-    include("includes/wordle.html");
+    if ($CURRENT_TAB == 'Games'){
+        include("includes/game_nav.php");
+        if ($CURRENT_PAGE == 'wordle') {
+            include("wordle/wordle.php");
+            include("wordle/wordle.html"); ?>
+            <script src='/src/wordle/wordle.js'> </script> <?php
+        }
+    }
+    
 ?>
-<script src="includes/wordle.js"> </script>
+
 <?php include("includes/footer.php");?>
 </body>
 </html>
