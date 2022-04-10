@@ -14,7 +14,7 @@
     include("includes/wordle.php");
     include("includes/wordle.html");
 ?>
-<script src="wordle.js"> </script>
+<script src="includes/wordle.js"> </script>
 <?php include("includes/footer.php");?>
 </body>
 </html>
